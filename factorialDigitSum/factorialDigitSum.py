@@ -11,4 +11,4 @@ def digitSum(num):
         return num%10 + digitSum(int(num/10))
 
 
-print(digitSum(fact(int(input()))))
+print(digitSum(fact(100)))
